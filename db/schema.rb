@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2019_06_22_174506) do
 
   create_table "events", force: :cascade do |t|
     t.integer "blog_space_id"
+    t.string "title", null: false
     t.string "url"
     t.text "description"
     t.datetime "created_at", null: false
