@@ -1,24 +1,21 @@
-# README
+# Dynamic blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app was created to test dynamic routing on Rails.
 
-Things you may want to cover:
+So, lets say that John wants to create his own blog. What we are looking for is that once John is registered in the system, the route `dynamic-blog/john` becomes immediately available within the app.
+And with that set up, John can start posting articles/events and whatnot  on the `dynamic-blog/john/events` url.
 
-* Ruby version
+In other words, I just wanted to test how to modify Rails routes so that we won't have to search by `:id` anymore ¯\\_(ツ)_/¯
 
-* System dependencies
+## Setup
 
-* Configuration
+Ruby version:
 
-* Database creation
+    2.5.1
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+System dependencies:
+        
+    rvm gemset create dynamic-blog
+    rvm gemset use dynamic-blog
+    
+    bundle install
