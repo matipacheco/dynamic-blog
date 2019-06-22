@@ -7,6 +7,8 @@ And with that set up, John can start posting articles/events and whatnot  on the
 
 In other words, I just wanted to test how to modify Rails routes so that we won't have to search by `:id` anymore ¯\\_(ツ)_/¯
 
+Note: FriendlyId made it really, really simple :)
+
 ## Setup
 
 Ruby version:
