@@ -9,7 +9,7 @@ In other words, I just wanted to test how to modify Rails routes so that we won'
 
 Note: FriendlyId made it really, really simple :)
 
-Note 2: I've 
+Note: I took the opportunity to use two gems that I've never used before, `friendly_id` and `bootstrap`.
 
 ## Setup
 
