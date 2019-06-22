@@ -10,12 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_06_22_174506) do
+ActiveRecord::Schema.define(version: 2019_06_22_182442) do
 
   create_table "blog_spaces", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "slug"
+    t.index ["slug"], name: "index_blog_spaces_on_slug", unique: true
   end
 
   create_table "events", force: :cascade do |t|
