@@ -9,6 +9,8 @@ In other words, I just wanted to test how to modify Rails routes so that we won'
 
 Note: FriendlyId made it really, really simple :)
 
+Note 2: I've 
+
 ## Setup
 
 Ruby version:
@@ -21,3 +23,8 @@ System dependencies:
     rvm gemset use dynamic-blog
     
     bundle install
+
+## Resources
+
+- [FriendlyId](https://github.com/norman/friendly_id)
+- [Bootstrap Ruby Gem](https://github.com/twbs/bootstrap-rubygem)
